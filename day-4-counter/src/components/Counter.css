@@ -1,0 +1,81 @@
+/* Background */
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Stopwatch container */
+.stopwatch {
+  text-align: center;
+}
+
+/* Outer circle container */
+.timer-wrapper {
+  width: 230px;
+  height: 230px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Rotating border */
+.timer-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+  padding: 8px;
+  background: conic-gradient(#ff00cc, #3333ff, #00ffcc, #ffcc00, #ff00cc);
+  animation: rotate 3s linear infinite;
+  z-index: -1;
+}
+
+/* Inner circle */
+.timer {
+  width: 180px;
+  height: 180px;
+  background: #0d1117;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Time text */
+.timer h2 {
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+/* Buttons */
+button {
+  margin: 10px;
+  margin-top: 50px;
+  padding: 10px 22px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff0080, #ff8c00);
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #ff8c00, #ff0080);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
