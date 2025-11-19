@@ -1,2 +1,2 @@
 <h1>Click Me!</h1>
-(Counter)[https://counter-jsx-two.vercel.app/]
+[Counter](https://counter-jsx-two.vercel.app/)
