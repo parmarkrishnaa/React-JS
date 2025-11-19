@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+  width: 95px;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: aqua;
+  border: 3px solid blue;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+button:hover{
+  background-color: blue;
+  border: 3px solid aqua;
+  color: white;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
