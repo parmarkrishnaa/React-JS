@@ -12,7 +12,7 @@ experience using hover & click-based star interactions.
 
 Here is the output of the Feedback Form UI:
 
-![Feedback Form Preview](index.html)
+![Feedback Form Preview](./src/assets/image/output-img.png)
 
 ------------------------------------------------------------------------
 
