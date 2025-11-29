@@ -13,6 +13,7 @@ experience using hover & click-based star interactions.
 Here is the output of the Feedback Form UI:
 
 ![Feedback Form](./src/assets/image/output-img.png)
+<br/>
 ![Preview Feedback Form](https://feedback-form-lilac-sigma.vercel.app/)
 
 ------------------------------------------------------------------------
