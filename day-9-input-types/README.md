@@ -22,7 +22,7 @@ Click the link below to view the live working demo of the form:
 Add a screenshot of your form UI here:
 
 
-![Form Output](/src/assets/image/output-img.png)
+[Form Output](/src/assets/image/output-img.png)
 
 ---
 
