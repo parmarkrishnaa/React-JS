@@ -12,7 +12,8 @@ experience using hover & click-based star interactions.
 
 Here is the output of the Feedback Form UI:
 
-![Feedback Form Preview](./src/assets/image/output-img.png)
+![Preview](./src/assets/image/output-img.png)
+[Feedback Form](https://feedback-form-lilac-sigma.vercel.app/)
 
 ------------------------------------------------------------------------
 
@@ -51,13 +52,13 @@ Here is the output of the Feedback Form UI:
 ### 1️⃣ Clone the Repository
 
 ``` bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/parmarkrishnaa/React-JS/day-7-events.git
 ```
 
 ### 2️⃣ Navigate into the project folder
 
 ``` bash
-cd your-repo-name
+cd day-7-events
 ```
 
 ### 3️⃣ Install dependencies
