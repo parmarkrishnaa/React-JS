@@ -14,23 +14,13 @@ This README also includes a **Live Preview** option and an **Output Image** sect
 ## 🚀 Live Preview
 Click the link below to view the live working demo of the form:
 
-➡️ **Live Preview:** *Add your deployment URL here*
-
-Example (replace with your own):
-```
-https://your-live-demo-link.com
-```
+➡️ (Live Preview)[https://admission-form.vercel.app/]
 
 ---
 
 ## 🖼 Output Preview (Screenshot)
-Add a screenshot of your form UI here:
 
-```
 ![Form Output](/src/assets/image/output-img.png)
-```
-
-(Place your `output.png` image inside the project root.)
 
 ---
 
