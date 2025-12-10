@@ -11,9 +11,9 @@ const Navbar = () => {
         >
           <div className="row align-items-center h-100">
             <div className="col-lg-4 text-center text-lg-start">
-              <a href="index.html">
+              <Link to="index.html">
                 <h1 className="display-5 text-primary m-0">Charitize</h1>
-              </a>
+              </Link>
             </div>
             <div className="col-lg-8 d-none d-lg-block">
               <div className="row">
@@ -55,6 +55,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* Topbar End */}
+
         {/* Navbar Start */}
         <div
           className="container-fluid bg-secondary px-0 wow fadeIn"
@@ -73,58 +74,32 @@ const Navbar = () => {
               </button>
               <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav me-auto">
-                  <a href="index.html" className="nav-item nav-link active">
+                  <Link to="/" className="nav-item nav-link active">
                     Home
-                  </a>
-                  <a href="about.html" className="nav-item nav-link">
+                  </Link>
+                  <Link to="/about.jsx" className="nav-item nav-link">
                     About
-                  </a>
-                  <a href="service.html" className="nav-item nav-link">
+                  </Link>
+                  <Link to="/service.jsx" className="nav-item nav-link">
                     Service
-                  </a>
-                  <a href="donation.html" className="nav-item nav-link">
+                  </Link>
+                  <Link to="/donation.jsx" className="nav-item nav-link">
                     Donation
-                  </a>
-                  <div className="nav-item dropdown">
-                    <a
-                      href="#!"
-                      className="nav-link dropdown-toggle"
-                      data-bs-toggle="dropdown"
-                    >
-                      Pages
-                    </a>
-                    <div className="dropdown-menu bg-light m-0">
-                      <a href="event.html" className="dropdown-item">
-                        Event
-                      </a>
-                      <a href="feature.html" className="dropdown-item">
-                        Feature
-                      </a>
-                      <a href="team.html" className="dropdown-item">
-                        Our Team
-                      </a>
-                      <a href="testimonial.html" className="dropdown-item">
-                        Testimonial
-                      </a>
-                      <a href="404.html" className="dropdown-item">
-                        404 Page
-                      </a>
-                    </div>
-                  </div>
-                  <a href="contact.html" className="nav-item nav-link">
+                  </Link>
+                  <Link to="/contact.jsx" className="nav-item nav-link">
                     Contact
-                  </a>
-                </div>
-                <div className="d-none d-lg-flex ms-auto">
-                  <a className="btn btn-square btn-dark ms-2" href="#!">
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a className="btn btn-square btn-dark ms-2" href="#!">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a className="btn btn-square btn-dark ms-2" href="#!">
-                    <i className="fab fa-youtube" />
-                  </a>
+                  </Link>
+                  <div className="d-none d-lg-flex ms-auto">
+                    <Link className="btn btn-square btn-dark ms-2" to="#!">
+                      <i className="fab fa-twitter" />
+                    </Link>
+                    <Link className="btn btn-square btn-dark ms-2" to="#!">
+                      <i className="fab fa-facebook-f" />
+                    </Link>
+                    <Link className="btn btn-square btn-dark ms-2" to="#!">
+                      <i className="fab fa-youtube" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </nav>
