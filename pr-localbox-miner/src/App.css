@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card {
+  border-radius: 15px;
+  background: #fff;
+}
+
+table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table th {
+  background-color: #212529;
+  color: #fff;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+.table-responsive {
+  margin: auto;
+}
+
+caption {
+  caption-side: top;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn-warning {
+  margin-right: 8px;
+}
+
+.pagination button {
+  border-radius: 50%;
+}

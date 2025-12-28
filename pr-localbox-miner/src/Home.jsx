@@ -1,35 +1,54 @@
 import React from "react";
 
-const Home = () => {
+const Home = ({ user, handleChange, handleSubmit, validate, error }) => {
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    if (!validate()) return;
+    handleSubmit(e);
+  };
+
   return (
-    <div className="container">
+    <div className="container mt-5">
       <div className="row justify-content-center">
-        <div className="col-md-6">
-          <form method="post">
-            <div>
+        <div className="col-md-5">
+          <div className="card shadow-lg p-4">
+            <h3 className="text-center mb-3">Login Form</h3>
+
+            <form onSubmit={onSubmit}>
               <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">
-                  Email address
-                </label>
+                <label>Email address</label>
                 <input
                   type="email"
+                  name="email"
+                  value={user.email || ""}
+                  onChange={handleChange}
                   className="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
                 />
+                {error.email && (
+                  <small className="text-danger">{error.email}</small>
+                )}
               </div>
+
               <div className="mb-3">
-                <label htmlFor="exampleInputPassword1" className="form-label">
-                  Password
-                </label>
+                <label>Password</label>
                 <input
                   type="password"
+                  name="password"
+                  value={user.password || ""}
+                  onChange={handleChange}
                   className="form-control"
-                  id="exampleInputPassword1"
                 />
+                {error.password && (
+                  <small className="text-danger">{error.password}</small>
+                )}
               </div>
-            </div>
-          </form>
+
+              <button className="btn btn-primary w-100" type="submit">
+                {user.id ? "Update" : "Submit"}
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>

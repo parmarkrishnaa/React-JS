@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router';
 
-const Header = () => {
+const Header = ({handleSearch}) => {
   return (
-    <React.Fragment>
+    <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
@@ -34,13 +34,14 @@ const Header = () => {
               <input
                 className="form-control me-2"
                 type="search"
+                onChange={handleSearch}
                 placeholder="Search"
               />
             </form>
           </div>
         </div>
       </nav>
-    </React.Fragment>
+    </>
   );
 };
 
