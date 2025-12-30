@@ -1,4 +1,7 @@
 import React from "react";
+import donation1 from "../assets/img/donation-1.jpg";
+import donation2 from "../assets/img/donation-2.jpg";
+import donation3 from "../assets/img/donation-3.jpg";
 
 const Donation = () => {
   return (
@@ -41,7 +44,7 @@ const Donation = () => {
         </div>
       </div>
       {/* Video End */}
-      
+
       {/* Video Modal Start */}
       <div
         className="modal fade"
@@ -80,7 +83,7 @@ const Donation = () => {
         </div>
       </div>
       {/* Video Modal End */}
-      
+
       {/* Donation Start */}
       <div className="container-fluid py-5">
         <div className="container">
@@ -120,7 +123,7 @@ const Donation = () => {
                   <div className="position-relative mb-4">
                     <img
                       className="img-fluid w-100"
-                      src="img/donation-1.jpg"
+                      src={donation1}
                       alt
                     />
                     <a
@@ -170,7 +173,7 @@ const Donation = () => {
                   <div className="position-relative mb-4">
                     <img
                       className="img-fluid w-100"
-                      src="img/donation-2.jpg"
+                      src={donation2}
                       alt
                     />
                     <a
@@ -217,7 +220,7 @@ const Donation = () => {
                   <div className="position-relative mb-4">
                     <img
                       className="img-fluid w-100"
-                      src="img/donation-3.jpg"
+                      src={donation3}
                       alt
                     />
                     <a
@@ -264,7 +267,7 @@ const Donation = () => {
                   <div className="position-relative mb-4">
                     <img
                       className="img-fluid w-100"
-                      src="img/donation-1.jpg"
+                      src={donation1}
                       alt
                     />
                     <a
@@ -314,7 +317,7 @@ const Donation = () => {
                   <div className="position-relative mb-4">
                     <img
                       className="img-fluid w-100"
-                      src="img/donation-2.jpg"
+                      src={donation2}
                       alt
                     />
                     <a
@@ -361,7 +364,7 @@ const Donation = () => {
                   <div className="position-relative mb-4">
                     <img
                       className="img-fluid w-100"
-                      src="img/donation-3.jpg"
+                      src={donation3}
                       alt
                     />
                     <a
@@ -389,7 +392,7 @@ const Donation = () => {
         </div>
       </div>
       {/* Donation End */}
-      
+
       {/* Donate Start */}
       <div className="container-fluid donate py-5">
         <div className="container">
@@ -516,7 +519,7 @@ const Donation = () => {
         </div>
       </div>
       {/* Donate End */}
-      
+
       {/* Newsletter Start */}
       <div
         className="container-fluid bg-primary py-5 mt-5 wow fadeIn"

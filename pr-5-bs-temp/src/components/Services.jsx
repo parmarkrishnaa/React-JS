@@ -80,7 +80,7 @@ const Services = () => {
         </div>
       </div>
       {/* Video Modal End */}
-
+      
       {/* Service Start */}
       <div className="container-fluid py-5">
         <div className="container">
@@ -203,7 +203,7 @@ const Services = () => {
         </div>
       </div>
       {/* Service End */}
-
+      
       {/* Donate Start */}
       <div className="container-fluid donate py-5">
         <div className="container">
@@ -330,7 +330,7 @@ const Services = () => {
         </div>
       </div>
       {/* Donate End */}
-
+      
       {/* Testimonial Start */}
       <div className="container-fluid py-5">
         <div className="container">
@@ -477,7 +477,7 @@ const Services = () => {
         </div>
       </div>
       {/* Testimonial End */}
-
+      
       {/* Newsletter Start */}
       <div
         className="container-fluid bg-primary py-5 mt-5 wow fadeIn"

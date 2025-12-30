@@ -1,6 +1,7 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <div>
       <div>
@@ -11,9 +12,9 @@ const Navbar = () => {
         >
           <div className="row align-items-center h-100">
             <div className="col-lg-4 text-center text-lg-start">
-              <Link to="index.html">
+              <NavLink to="index.html">
                 <h1 className="display-5 text-primary m-0">Charitize</h1>
-              </Link>
+              </NavLink>
             </div>
             <div className="col-lg-8 d-none d-lg-block">
               <div className="row">
@@ -74,31 +75,31 @@ const Navbar = () => {
               </button>
               <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav me-auto">
-                  <Link to="/" className="nav-item nav-link active">
+                  <NavLink to="/" className="nav-item nav-link active">
                     Home
-                  </Link>
-                  <Link to="/about.jsx" className="nav-item nav-link">
+                  </NavLink>
+                  <NavLink to="/about" className="nav-item nav-link">
                     About
-                  </Link>
-                  <Link to="/service.jsx" className="nav-item nav-link">
+                  </NavLink>
+                  <NavLink to="/services" className="nav-item nav-link">
                     Service
-                  </Link>
-                  <Link to="/donation.jsx" className="nav-item nav-link">
+                  </NavLink>
+                  <NavLink to="/donation" className="nav-item nav-link">
                     Donation
-                  </Link>
-                  <Link to="/contact.jsx" className="nav-item nav-link">
+                  </NavLink>
+                  <NavLink to="/contact" className="nav-item nav-link">
                     Contact
-                  </Link>
-                  <div className="d-none d-lg-flex ms-auto">
-                    <Link className="btn btn-square btn-dark ms-2" to="#!">
+                  </NavLink>
+                  <div className="d-none d-lg-flex align-items-center">
+                    <NavLink className="btn btn-square btn-dark ms-2" to="#!">
                       <i className="fab fa-twitter" />
-                    </Link>
-                    <Link className="btn btn-square btn-dark ms-2" to="#!">
+                    </NavLink>
+                    <NavLink className="btn btn-square btn-dark ms-2" to="#!">
                       <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link className="btn btn-square btn-dark ms-2" to="#!">
+                    </NavLink>
+                    <NavLink className="btn btn-square btn-dark ms-2" to="#!">
                       <i className="fab fa-youtube" />
-                    </Link>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -111,4 +112,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

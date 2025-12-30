@@ -1,4 +1,8 @@
 import React from "react";
+import aboutImg from "../assets/img/about.jpg";
+import team1 from "../assets/img/team-1.jpg";
+import team2 from "../assets/img/team-2.jpg";
+import team3 from "../assets/img/team-3.jpg";
 
 const About = () => {
   return (
@@ -89,7 +93,7 @@ const About = () => {
               <div className="about-img">
                 <img
                   className="img-fluid w-100"
-                  src="img/about.jpg"
+                  src={aboutImg}
                   alt="Image"
                 />
               </div>
@@ -290,7 +294,7 @@ const About = () => {
             <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
               <div className="team-item d-flex h-100 p-4">
                 <div className="team-detail pe-4">
-                  <img className="img-fluid mb-4" src="img/team-1.jpg" alt />
+                  <img className="img-fluid mb-4" src={team1} alt />
                   <h3>Boris Johnson</h3>
                   <span>Founder &amp; CEO</span>
                 </div>
@@ -313,7 +317,7 @@ const About = () => {
             <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
               <div className="team-item d-flex h-100 p-4">
                 <div className="team-detail pe-4">
-                  <img className="img-fluid mb-4" src="img/team-2.jpg" alt />
+                  <img className="img-fluid mb-4" src={team2} alt />
                   <h3>Donald Pakura</h3>
                   <span>Project Manager</span>
                 </div>
@@ -336,7 +340,7 @@ const About = () => {
             <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
               <div className="team-item d-flex h-100 p-4">
                 <div className="team-detail pe-4">
-                  <img className="img-fluid mb-4" src="img/team-3.jpg" alt />
+                  <img className="img-fluid mb-4" src={team3} alt />
                   <h3>Alexander Bell</h3>
                   <span>Volunteer</span>
                 </div>

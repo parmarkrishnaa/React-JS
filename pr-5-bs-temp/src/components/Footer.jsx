@@ -1,4 +1,10 @@
 import React from "react";
+import gallery1 from "../assets/img/gallery-1.jpg";
+import gallery2 from "../assets/img/gallery-2.jpg";
+import gallery3 from "../assets/img/gallery-3.jpg";
+import gallery4 from "../assets/img/gallery-4.jpg";
+import gallery5 from "../assets/img/gallery-5.jpg";
+import gallery6 from "../assets/img/gallery-6.jpg";
 
 const Footer = () => {
   return (
@@ -70,46 +76,22 @@ const Footer = () => {
               <h4 className="text-light mb-4">Gallery</h4>
               <div className="row g-2">
                 <div className="col-4">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/gallery-1.jpg"
-                    alt
-                  />
+                  <img className="img-fluid w-100" src={gallery1} alt />
                 </div>
                 <div className="col-4">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/gallery-2.jpg"
-                    alt
-                  />
+                  <img className="img-fluid w-100" src={gallery2} alt />
                 </div>
                 <div className="col-4">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/gallery-3.jpg"
-                    alt
-                  />
+                  <img className="img-fluid w-100" src={gallery3} alt />
                 </div>
                 <div className="col-4">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/gallery-4.jpg"
-                    alt
-                  />
+                  <img className="img-fluid w-100" src={gallery4} alt />
                 </div>
                 <div className="col-4">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/gallery-5.jpg"
-                    alt
-                  />
+                  <img className="img-fluid w-100" src={gallery5} alt />
                 </div>
                 <div className="col-4">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/gallery-6.jpg"
-                    alt
-                  />
+                  <img className="img-fluid w-100" src={gallery6} alt />
                 </div>
               </div>
             </div>

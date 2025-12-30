@@ -1,4 +1,10 @@
 import React from "react";
+import carousel1 from "../assets/img/carousel-1.jpg";
+import carousel2 from "../assets/img/carousel-2.jpg";
+import aboutImg from "../assets/img/about.jpg";
+import team1 from "../assets/img/team-1.jpg";
+import team2 from "../assets/img/team-2.jpg";
+import team3 from "../assets/img/team-3.jpg";
 
 const Home = () => {
   return (
@@ -30,7 +36,7 @@ const Home = () => {
               </div>
               <div className="col-lg-6">
                 <div className="carousel-img">
-                  <img className="w-100" src="img/carousel-1.jpg" alt="Image" />
+                  <img className="w-100" src={carousel1} alt="Image" />
                 </div>
               </div>
             </div>
@@ -58,7 +64,7 @@ const Home = () => {
               </div>
               <div className="col-lg-6">
                 <div className="carousel-img">
-                  <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
+                  <img className="w-100" src={carousel2} alt="Image" />
                 </div>
               </div>
             </div>
@@ -144,18 +150,14 @@ const Home = () => {
         </div>
       </div>
       {/* Video Modal End */}
-      
+
       {/* About Start */}
       <div className="container-fluid py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
               <div className="about-img">
-                <img
-                  className="img-fluid w-100"
-                  src="img/about.jpg"
-                  alt="Image"
-                />
+                <img className="img-fluid w-100" src={aboutImg} alt="Image" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -878,7 +880,7 @@ const Home = () => {
             <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
               <div className="team-item d-flex h-100 p-4">
                 <div className="team-detail pe-4">
-                  <img className="img-fluid mb-4" src="img/team-1.jpg" alt />
+                  <img className="img-fluid mb-4" src={team1} alt />
                   <h3>Boris Johnson</h3>
                   <span>Founder &amp; CEO</span>
                 </div>
@@ -901,7 +903,7 @@ const Home = () => {
             <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
               <div className="team-item d-flex h-100 p-4">
                 <div className="team-detail pe-4">
-                  <img className="img-fluid mb-4" src="img/team-2.jpg" alt />
+                  <img className="img-fluid mb-4" src={team2} alt />
                   <h3>Donald Pakura</h3>
                   <span>Project Manager</span>
                 </div>
@@ -924,7 +926,7 @@ const Home = () => {
             <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
               <div className="team-item d-flex h-100 p-4">
                 <div className="team-detail pe-4">
-                  <img className="img-fluid mb-4" src="img/team-3.jpg" alt />
+                  <img className="img-fluid mb-4" src={team3} alt />
                   <h3>Alexander Bell</h3>
                   <span>Volunteer</span>
                 </div>
@@ -1097,37 +1099,46 @@ const Home = () => {
       {/* Testimonial End */}
 
       {/* Newsletter Start */}
-      <div
-        className="container-fluid bg-primary py-5 mt-5 wow fadeIn"
-        data-wow-delay="0.1s"
-      >
-        <div className="container">
-          <div className="row justify-content-center">
-            <div
-              className="col-lg-7 text-center wow fadeIn"
-              data-wow-delay="0.5s"
-            >
-              <h1 className="display-6 mb-4">Subscribe the Newsletter</h1>
-              <div className="position-relative w-100 mb-2">
-                <input
-                  className="form-control border-0 w-100 ps-4 pe-5"
-                  type="text"
-                  placeholder="Enter Your Email"
-                  style={{ height: 60 }}
-                />
-                <button
-                  type="button"
-                  className="btn btn-lg-square shadow-none position-absolute top-0 end-0 mt-2 me-2"
-                >
-                  <i className="fa fa-paper-plane text-primary fs-4" />
-                </button>
+      <div>
+        <div
+          classname="container-fluid bg-primary py-5 mt-5 wow fadeIn"
+          data-wow-delay="0.1s"
+        >
+          <div classname="container">
+            <div classname="row justify-content-center">
+              <div
+                classname="col-lg-7 text-center wow fadeIn"
+                data-wow-delay="0.5s"
+              >
+                <h1 classname="display-6 mb-4">Subscribe the Newsletter</h1>
+                <div classname="position-relative w-100 mb-2">
+                  <input
+                    classname="form-control border-0 w-100 ps-4 pe-5"
+                    type="text"
+                    placeholder="Enter Your Email"
+                    style={{ height: 60 }}
+                  />
+                  <button
+                    type="button"
+                    classname="btn btn-lg-square shadow-none position-absolute top-0 end-0 mt-2 me-2"
+                  >
+                    <i classname="fa fa-paper-plane text-primary fs-4"></i>
+                  </button>
+                  <i classname="fa fa-paper-plane text-primary fs-4"></i>
+                </div>
+                <i classname="fa fa-paper-plane text-primary fs-4">
+                  <p classname="mb-0">
+                    Don't worry, we won't spam you with emails.
+                  </p>
+                </i>
               </div>
-              <p className="mb-0">
-                Don't worry, we won't spam you with emails.
-              </p>
+              <i classname="fa fa-paper-plane text-primary fs-4"></i>
             </div>
+            <i classname="fa fa-paper-plane text-primary fs-4"></i>
           </div>
+          <i classname="fa fa-paper-plane text-primary fs-4"></i>
         </div>
+        <i classname="fa fa-paper-plane text-primary fs-4"></i>
       </div>
       {/* Newsletter End */}
     </div>
