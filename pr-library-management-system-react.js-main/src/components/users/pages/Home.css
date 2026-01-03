@@ -1,0 +1,52 @@
+.hero-carousel {
+    margin-bottom: 60px;
+}
+
+.hero-img {
+    height: 85vh;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.hero-caption {
+    bottom: 35%;
+}
+
+.hero-caption h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-caption p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.home-section {
+    padding: 60px 0;
+}
+
+.home-section.bg-light {
+    background: #f8f9fa;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .hero-img {
+        height: 60vh;
+    }
+
+    .hero-caption h1 {
+        font-size: 28px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+}

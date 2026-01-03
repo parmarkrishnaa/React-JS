@@ -1,0 +1,133 @@
+.dashboard-container {
+    padding: 10px;
+}
+
+/* ===== DASHBOARD CARDS ===== */
+.dashboard-card {
+    position: relative;
+    padding: 26px 16px;
+    border-radius: 16px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+.card-icon {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 12px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.dashboard-card p {
+    margin: 0;
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.dashboard-card h3 {
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* COLORS */
+.dashboard-card.blue {
+    background: linear-gradient(135deg, #0d6efd, #084298);
+}
+
+.dashboard-card.green {
+    background: linear-gradient(135deg, #198754, #0f5132);
+}
+
+.dashboard-card.purple {
+    background: linear-gradient(135deg, #6f42c1, #432874);
+}
+
+.dashboard-card.orange {
+    background: linear-gradient(135deg, #fd7e14, #b45309);
+}
+
+.dashboard-card.red {
+    background: linear-gradient(135deg, #dc3545, #7a0916);
+}
+
+/* ===== TABLE RESPONSIVE ===== */
+.table-responsive {
+    overflow-x: auto;
+}
+
+table {
+    min-width: 700px;
+}
+
+table th,
+table td {
+    white-space: nowrap;
+    vertical-align: middle !important;
+    font-size: 14px;
+}
+
+/* ===== PAGINATION ===== */
+.pagination-wrap {
+    flex-wrap: wrap;
+}
+
+/* ===== CHART ===== */
+.recharts-responsive-container {
+    min-height: 280px;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 576px) {
+    .dashboard-card {
+        padding: 22px 14px;
+    }
+
+    .dashboard-card h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    .btn {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 768px) {
+    .dashboard-card h3 {
+        font-size: 28px;
+    }
+
+    table {
+        min-width: 600px;
+    }
+}
+
+/* ===== LARGE SCREENS ===== */
+@media (min-width: 1200px) {
+    .dashboard-container {
+        max-width: 1300px;
+        margin: auto;
+    }
+}
