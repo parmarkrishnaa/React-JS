@@ -6,7 +6,6 @@ import About from './pages/About';
 import Login from './auth/Login';
 import Signup from './auth/Signup';
 import Books from './pages/Books';
-import Contact from './pages/Contact';
 import MyBook from './pages/MyBook';
 import Profile from './pages/Profile';
 
@@ -26,7 +25,6 @@ function Userlayouts() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path='/books' element={<Books list={list} handleBorrowBook={handleBorrowBook} />} /> 
-        <Route path='/contact' element={<Contact/>} />
         <Route path='/my-books' element={<MyBook/>} />
         <Route path='/profile' element={<Profile/>} />
       </Routes>

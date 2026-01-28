@@ -21,7 +21,8 @@ const App = () => {
     e.preventDefault();
 
     dispatch(addEmp(emp));
-    setEmp({ empID: "", empName: "", empDept: "", empSalary: "" });
+    setEmp({});
+
   };
 
   return (

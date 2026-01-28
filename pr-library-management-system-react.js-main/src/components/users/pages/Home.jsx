@@ -1,6 +1,4 @@
 import React from "react";
-import NewBook from "./NewBook";
-import Category from "./Category";
 import { useBooks } from "../../../hooks/useBooks";
 import './Home.css';
 
